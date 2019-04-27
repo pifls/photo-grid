@@ -1,2 +1,2 @@
 # photo-grid
-simple photo grid with images from API
+simple photo gallery with images from API

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1">
+        <title>photo-grid</title>
+        <link rel="stylesheet" href="./src/scss/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 class="header-title">Photo Gallery</h1>
+                <div class='images-filters'>
+                    <input class="filter-btn" type="button" value="show all">
+                    <input class="filter-btn" type="button" value="unsplash">
+                    <input class="filter-btn" type="button" value="littlevisuals">
+                    <input class="filter-btn" type="button" value="travelcoffeebook">
+                    <input class="filter-btn" type="button" value="jaymantri">
+                </div>
+            </header>
+            <main>
+                <section class="images-section">
+                    <div class="images">
+                        <i class="loader fas fa-4x fa-spinner fa-spin"></i>
+                    </div>
+                    <input class="more-images-btn" type="button" value="SHOW MORE" />
+                </section>
+            </main>
+        </div>
+        <script src="./src/js/index.js">
+        </script>
+    </body>
+</html>
