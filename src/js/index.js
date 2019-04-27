@@ -2,7 +2,7 @@ let IMAGES_ALL = [];
 let IMAGES_FILTERED = [];
 let IMAGES_LOADED = 0;
 const EVERY_N_IMAGES = 10;
-const IMAGES_URL = 'http://www.splashbase.co/api/v1/images/search?query=tree'
+const IMAGES_URL = 'https://www.splashbase.co/api/v1/images/search?query=tree'
 
 const primaryColorLight = '#077187';
 const textColorLight = '#ffffff';
