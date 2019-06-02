@@ -1,3 +1,5 @@
+import './../scss/index.scss';
+
 let IMAGES_ALL = [];
 let IMAGES_FILTERED = [];
 let IMAGES_LOADED = 0;
