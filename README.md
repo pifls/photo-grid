@@ -2,10 +2,7 @@
 
 Simple photo grid with images from API
 
-#### TODO
-- add webpack (images optimization)
-
-#### live
+#### [live](https://pifls.github.io/photo-grid/)
 
 Mobile View             |  Desktop View
 :-------------------------:|:-------------------------:
