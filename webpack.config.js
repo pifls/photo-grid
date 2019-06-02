@@ -1,5 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
     entry: './src/js/index.js',
@@ -23,11 +23,12 @@ module.exports = {
             },
             {
                 test: /\.scss$/,
-                use: [
-                    "style-loader",
-                    "css-loader",
-                    "sass-loader"
-                ]
+                use: ExtractTextPlugin.extract({
+                    use: [ 
+                        'css-loader',
+                        'sass-loader'
+                    ]
+                })
             }
         ]
     },
@@ -36,9 +37,6 @@ module.exports = {
             template: "./src/index.html",
             filename: "./index.html"
         }),
-        new MiniCssExtractPlugin({
-            filename: "[name].css",
-            chunkFilename: "[id].css"
-        })
+        new ExtractTextPlugin("index.css")
     ]
 };
