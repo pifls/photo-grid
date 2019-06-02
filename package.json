@@ -1,0 +1,20 @@
+{
+  "name": "photo-grid",
+  "version": "1.0.0",
+  "description": "Simple photo grid with images from API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pifls/photo-grid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pifls/photo-grid/issues"
+  },
+  "homepage": "https://pifls.github.io/photo-grid/"
+}
